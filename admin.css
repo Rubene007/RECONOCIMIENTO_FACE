@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar {
+  background-color: #212529;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+.main-content {
+  margin-left: 16.666667%;
+}
+@media (max-width: 767.98px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
